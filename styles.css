@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 3rem;
+	flex-wrap: wrap;
 }
 
 .item {
@@ -21,4 +22,7 @@
     width: 5rem;
     height: 5rem;
     font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
