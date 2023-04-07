@@ -1,56 +1,24 @@
-
-/* Your CSS Code here. */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 5px;
+.holder {
+    display: flex;
+    gap: 10px;
+    font-size: 3rem;
 }
 
-.item3 {
+.item {
     background-color: green;
-    font-size: 3rem;
-    height: 15vh;
-    font-weight: bold;
-}
-
-.item4 {
-    background-color: green;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
-}
-
-.item5 {
-    background-color: green;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
-}
-
-.item6 {
-    background-color: green;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
-}
-
-.item7 {
-    background-color: green;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
+    width: 5rem;
+    height: 5rem;
 }
 
 .item1 {
     background-color: red;
-    font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
+    width: 5rem;
+    height: 5rem;
 }
 
 .item2 {
     background-color: blue;
+    width: 5rem;
+    height: 5rem;
     font-size: 3rem;
-    font-weight: bold;
-    height: 15vh;
 }
