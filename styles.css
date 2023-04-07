@@ -1,2 +1,56 @@
 
 /* Your CSS Code here. */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+
+.item3 {
+    background-color: green;
+    font-size: 3rem;
+    height: 15vh;
+    font-weight: bold;
+}
+
+.item4 {
+    background-color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.item5 {
+    background-color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.item6 {
+    background-color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.item7 {
+    background-color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.item1 {
+    background-color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.item2 {
+    background-color: blue;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 15vh;
+}
